@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190">
+<rect width="1200" height="190" rx="22" fill="#0d1520" stroke="#1a2b3c"/>
+<text x="50" y="47" fill="#f0f6fc" font-family="Arial" font-size="22" font-weight="700">MISSION TELEMETRY</text>
+<g font-family="Arial">
+  <g transform="translate(55,75)"><text fill="#38BDF8" font-size="28" font-weight="700">4.6+ yrs</text><text y="35" fill="#94a3b8" font-size="15">DevOps experience</text></g>
+  <g transform="translate(335,75)"><text fill="#c4b5fd" font-size="28" font-weight="700">Kubernetes</text><text y="35" fill="#94a3b8" font-size="15">Cluster operations</text></g>
+  <g transform="translate(625,75)"><text fill="#22D3A5" font-size="28" font-weight="700">AWS + Azure</text><text y="35" fill="#94a3b8" font-size="15">Cloud infrastructure</text></g>
+  <g transform="translate(925,75)"><text fill="#38BDF8" font-size="28" font-weight="700">CI/CD + IaC</text><text y="35" fill="#94a3b8" font-size="15">Jenkins &amp; Terraform</text></g>
+</g>
+</svg>

@@ -1,0 +1,28 @@
+ROHIT GITHUB PROFILE — SETUP
+
+1. GitHub par ek new public repository banao jiska naam exactly tumhare username ke same ho:
+   THAKUR-ROHIT-21
+
+2. Is folder ke saare files repo root me upload/push karo.
+
+3. README.md me:
+   YOUR-LINKEDIN-HANDLE ko apne LinkedIn handle se replace karo.
+   YOUR-EMAIL ko apne real email se replace karo.
+
+4. GitHub repo:
+   Settings > Actions > General > Workflow permissions
+   "Read and write permissions" enable karo.
+
+5. Actions tab me "Generate Contribution Snake" workflow manually Run workflow karo.
+   Workflow "output" branch create karega.
+
+6. Kuch seconds baad contribution snake README me render hoga.
+
+Suggested git commands:
+
+git init
+git add .
+git commit -m "Create GitHub profile README"
+git branch -M main
+git remote add origin https://github.com/THAKUR-ROHIT-21/THAKUR-ROHIT-21.git
+git push -u origin main

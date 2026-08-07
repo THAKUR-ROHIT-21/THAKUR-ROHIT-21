@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+<rect width="1200" height="260" rx="22" fill="#080c14"/>
+<style>
+.t{font:700 19px Arial;fill:#f0f6fc}.s{font:15px Arial;fill:#94a3b8}.h{font:700 16px Arial}
+</style>
+<g transform="translate(40,38)">
+<rect width="350" height="185" rx="18" fill="#0d1520" stroke="#38BDF8"/><text x="22" y="34" class="h" fill="#38BDF8">PLATFORM &amp; ORCHESTRATION</text>
+<text x="22" y="74" class="t">Kubernetes · Docker · Helm</text><text x="22" y="107" class="s">Calico · Ingress NGINX · containerd</text><text x="22" y="140" class="s">Deployments · StatefulSets · PVC</text>
+</g>
+<g transform="translate(425,38)">
+<rect width="350" height="185" rx="18" fill="#0d1520" stroke="#c4b5fd"/><text x="22" y="34" class="h" fill="#c4b5fd">CLOUD &amp; DELIVERY</text>
+<text x="22" y="74" class="t">AWS · Azure · GCP</text><text x="22" y="107" class="s">Jenkins · GitHub · Terraform</text><text x="22" y="140" class="s">EC2 · VPC · RDS · S3 · Route 53</text>
+</g>
+<g transform="translate(810,38)">
+<rect width="350" height="185" rx="18" fill="#0d1520" stroke="#22D3A5"/><text x="22" y="34" class="h" fill="#22D3A5">OBSERVABILITY &amp; OPS</text>
+<text x="22" y="74" class="t">Prometheus · Grafana</text><text x="22" y="107" class="s">Alertmanager · CloudWatch · Linux</text><text x="22" y="140" class="s">Bash · Git · Troubleshooting</text>
+</g>
+</svg>

@@ -1,0 +1,35 @@
+# Rohit Kumar GitHub Profile Configuration
+username: THAKUR-ROHIT-21
+
+profile:
+  name: "Rohit Kumar"
+  tagline: "DevOps & SRE Engineer | Kubernetes · AWS · Azure · CI/CD | Terraform · Prometheus · Grafana"
+  location: "Delhi, India"
+  bio: |
+    DevOps & SRE Engineer focused on cloud infrastructure, Kubernetes,
+    CI/CD automation, Infrastructure as Code, observability, Linux,
+    reliability engineering, and production troubleshooting.
+
+social:
+  email: "YOUR-EMAIL"
+  linkedin: "YOUR-LINKEDIN-HANDLE"
+
+core_stack:
+  platform:
+    - Kubernetes
+    - Docker
+    - Helm
+    - Calico
+    - Nginx
+  cloud:
+    - AWS
+    - Azure
+    - GCP
+    - Terraform
+    - Jenkins
+  observability:
+    - Prometheus
+    - Grafana
+    - Alertmanager
+    - CloudWatch
+    - Linux
