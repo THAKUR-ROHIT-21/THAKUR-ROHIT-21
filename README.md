@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/generated/galaxy-header.svg" width="100%" alt="Rohit Kumar — DevOps & SRE Engineer"/>
+  <img src="./assets/generated/galaxy-header.svg" width="100%" alt="Devendra — Infrastructure Engineer"/>
 </div>
 
 <br/>
@@ -8,7 +8,8 @@
 
 <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE"><img src="https://img.shields.io/badge/-LinkedIn-080c14?style=for-the-badge&logo=linkedin&logoColor=38BDF8"/></a>
 <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=f87171"/></a>
-<sub><img src="https://komarev.com/ghpvc/?username=THAKUR-ROHIT-21&label=Profile%20Views&color=080c14&style=for-the-badge"/></sub>
+
+<sub><img src="https://komarev.com/ghpvc/?username=DEVENDRA-5470&label=Profile%20Views&color=080c14&style=for-the-badge"/></sub>
 
 </div>
 
@@ -29,24 +30,24 @@
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/THAKUR-ROHIT-21/THAKUR-ROHIT-21/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake"/>
+  <img src="https://raw.githubusercontent.com/DEVENDRA-5470/DEVENDRA-5470/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </div>
 
 <br/>
 
 ## 🎯 &nbsp;Focus
 
-<sub>DevOps & SRE Engineer focused on designing, automating, monitoring, and troubleshooting cloud-native production infrastructure using Kubernetes, AWS, Jenkins, Terraform, Docker, Linux, Prometheus, and Grafana.</sub>
+<sub>Infrastructure engineer designing and operating the Kubernetes, CI/CD, and observability stacks behind production systems — from self-managed K3s clusters and service meshes to zero-trust, keyless CI/CD pipelines running in AWS.</sub>
 
 <br/>
 
-Currently building and operating self-managed Kubernetes environments, CI/CD pipelines, cloud infrastructure, ingress/networking, monitoring stacks, and production-style application deployments across AWS and Azure.
+Currently building out service mesh + GitOps delivery on a self-managed K3s cluster, and running production CI/CD for a MERN e-commerce platform on self-hosted Jenkins.
 
 <br/>
 
 ## 📁 &nbsp;Case studies
 
-<sub>Selected hands-on projects showing infrastructure design, deployment, troubleshooting, automation, observability, and cloud operations.</sub>
+<sub>Each project below is infrastructure I designed, deployed, and operate — written as a case study because the decisions matter more than the tech list.</sub>
 
 <br/>
 
@@ -54,92 +55,77 @@ Currently building and operating self-managed Kubernetes environments, CI/CD pip
 <tr>
 <td width="50%" valign="top">
 
-#### 🏦 &nbsp;Java Fintech Kubernetes
-<sub>Production-style banking application on Kubernetes</sub>
+#### 🧩 &nbsp;BookVault
+<sub>Self-managed K3s cluster, service mesh & GitOps</sub>
 
-Deployed a Java/Spring Boot banking platform with frontend, backend, and PostgreSQL on a self-managed Kubernetes cluster.
+A 3-node K3s cluster running Django/MySQL, built as hands-on infra for CKA-level operations — not a managed EKS shortcut.
 
-<sub>
-<b>Architecture</b> — control plane + worker nodes, Calico networking, persistent storage, Services and Ingress<br/>
-<b>Delivery</b> — containerized frontend/backend workloads with Docker and Kubernetes manifests<br/>
-<b>Troubleshooting</b> — resolved Pod scheduling, ConfigMap/Secret, NodePort, Ingress, DNS, API URL, and rollout issues<br/>
-<b>Operations</b> — readiness checks, health endpoints, node placement, service discovery, and production debugging
-</sub>
+<sub>*Problem* — needed real exposure to scheduling, networking, and RBAC that managed Kubernetes abstracts away<br/>
+*Approach* — self-managed control plane, Linkerd mesh tracking golden-signal metrics, Jenkins + ArgoCD GitOps delivery, Traefik + cert-manager TLS<br/>
+*Hardening* — RBAC, NetworkPolicy, HPA/VPA, node affinity, init containers, Redis caching<br/>
+*Observability* — Prometheus + Grafana + AlertManager → Telegram</sub>
 
-<sub>`Kubernetes` `Docker` `Spring Boot` `PostgreSQL` `Nginx`</sub>
+<sub>`K3s` `Linkerd` `ArgoCD` `Jenkins` `Prometheus`</sub>
 
 </td>
 <td width="50%" valign="top">
 
-#### 📊 &nbsp;Kubernetes Observability
-<sub>Prometheus, Grafana & Alertmanager monitoring stack</sub>
+#### ⚙️ &nbsp;Electronix
+<sub>Distributed Jenkins CI/CD, production MERN app</sub>
 
-Built a dedicated Kubernetes monitoring stack using Helm and kube-prometheus-stack.
+Full-stack e-commerce platform where the interesting work is the delivery pipeline.
 
-<sub>
-<b>Metrics</b> — Prometheus with persistent storage and retention configuration<br/>
-<b>Dashboards</b> — Grafana with persistent storage and NodePort access<br/>
-<b>Alerting</b> — Alertmanager configuration and custom PrometheusRule troubleshooting<br/>
-<b>Scheduling</b> — nodeSelector, PV node affinity, resources, and multi-node scheduling analysis
-</sub>
+<sub>*Problem* — needed zero hardcoded credentials and a clean deploy path to S3/CloudFront<br/>
+*Approach* — dedicated SSH-based Jenkins agent, declarative pipeline (build → S3 → CloudFront invalidation), IAM role-based auth, CloudFront OAC over private S3<br/>
+*Migration* — moved backend from MongoDB to MySQL/Sequelize across 5 relational models with junction tables — a schema redesign, not a lift-and-shift</sub>
 
-<sub>`Prometheus` `Grafana` `Alertmanager` `Helm` `Kubernetes`</sub>
+<sub>`Jenkins` `S3/CloudFront` `MySQL` `Razorpay`</sub>
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
-#### 🛒 &nbsp;E-Commerce Platform
-<sub>Containerized application with Kubernetes deployment</sub>
+#### 🔐 &nbsp;SimpleBank
+<sub>Zero-SSH, keyless AWS-native CI/CD</sub>
 
-Designed deployment architecture for frontend, backend, and MySQL/RDS-based e-commerce workloads.
+Design goal: eliminate standing access, not just automate deploys.
 
-<sub>
-<b>Configuration</b> — ConfigMaps and Secrets for database and application settings<br/>
-<b>Reliability</b> — readiness/liveness probes and init-container dependency checks<br/>
-<b>Storage</b> — PVC-backed application data where required<br/>
-<b>Placement</b> — nodeSelector-based workload scheduling on dedicated worker nodes
-</sub>
+<sub>*Problem* — long-lived SSH keys and static credentials are a standing attack surface<br/>
+*Approach* — GitHub Actions via OIDC (no stored credentials), deploys through SSM Session Manager (no open SSH port), secrets from SSM Parameter Store, images through ECR</sub>
 
-<sub>`Kubernetes` `Docker` `MySQL` `AWS RDS` `Node.js`</sub>
+<sub>`Flask` `OIDC` `SSM` `ECR`</sub>
 
 </td>
 <td width="50%" valign="top">
 
-#### ☁️ &nbsp;AWS DevOps Infrastructure
-<sub>Cloud infrastructure, automation & CI/CD</sub>
+#### 🎯 &nbsp;IQuiz Hub
+<sub>Production platform on ECS Fargate</sub>
 
-Hands-on AWS infrastructure covering networking, compute, delivery, monitoring, and Infrastructure as Code.
+React/Node/MongoDB quiz platform with a proctored coding-exam module.
 
-<sub>
-<b>Cloud</b> — EC2, VPC, IAM, S3, RDS, Route 53, CloudFront, Load Balancer and Auto Scaling<br/>
-<b>IaC</b> — Terraform modules, variables, state, remote backends and drift detection<br/>
-<b>CI/CD</b> — Jenkins pipelines and automated application deployments<br/>
-<b>Monitoring</b> — CloudWatch, Prometheus, Grafana and operational troubleshooting
-</sub>
+<sub>*Problem* — ECS deployments were failing silently under the circuit breaker<br/>
+*Approach* — diagnosed and resolved circuit-breaker rollback failures and an nginx port-mapping misconfig in production — failures that only surface under real deploy conditions<br/>
+*Features* — Monaco-based anti-cheat exam module, cascade-delete data integrity</sub>
 
-<sub>`AWS` `Terraform` `Jenkins` `Linux` `CloudWatch`</sub>
+<sub>`ECS Fargate` `React` `MongoDB`</sub>
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><sub>📂 &nbsp;More engineering work</sub></summary>
+<summary><sub>📂 &nbsp;More projects — serverless blog, security tooling, IaC deployment</sub></summary>
 
 <br/>
 
-<sub>
-🌐 &nbsp;<b>Ingress & Networking</b> — configured ingress-nginx, host-based routing, NodePort exposure, DNS testing, SSL troubleshooting, Calico networking, Security Groups and NACL concepts.
+<sub>🌐 &nbsp;**DevOps World** — fully serverless blog (`blog.devilhai.info`): S3 + CloudFront (OAC) + Route 53 + ACM for the frontend, Cognito for auth, SES for email, Lambda behind API Gateway for subscriber onboarding, DynamoDB for post metadata.
 
-🔧 &nbsp;<b>Kubernetes Administration</b> — kubeadm cluster setup, containerd runtime, swap configuration, worker joins, scheduling, namespaces, Secrets, ConfigMaps, PVCs, Deployments, StatefulSets and Services.
+🚨 &nbsp;**SSH Intrusion Monitor** — `systemd`-managed service tailing `/var/log/auth.log` in real time, geolocating suspicious source IPs and firing SMTP alerts, paired with a cron-driven bash-history audit digest.
 
-🚀 &nbsp;<b>CI/CD Engineering</b> — Jenkins controller/agent setup, freestyle and pipeline jobs, Docker build/push workflows, Git operations and cloud deployment automation.
+☁️ &nbsp;**TaskMaster** — Flask/MongoDB Atlas app with infrastructure fully defined in Terraform, shipped as a versioned Docker image.
 
-☁️ &nbsp;<b>Multi-Cloud Learning</b> — practical AWS experience with ongoing Azure administration and GCP infrastructure work.
-</sub>
+📖 &nbsp;**Kubernetes Internals Guide** — a 20-section, self-authored technical reference written while building the K3s cluster above, now used as training material.</sub>
 
 </details>
 
@@ -148,24 +134,25 @@ Hands-on AWS infrastructure covering networking, compute, delivery, monitoring, 
 ## 📈 &nbsp;GitHub activity
 
 <div align="center">
-
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=THAKUR-ROHIT-21&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=THAKUR-ROHIT-21&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=THAKUR-ROHIT-21&theme=tokyonight&hide_border=true&background=0d1117" />
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=DEVENDRA-5470&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEVENDRA-5470&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=THAKUR-ROHIT-21&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=DEVENDRA-5470&theme=tokyonight&hide_border=true&background=0d1117" />
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=DEVENDRA-5470&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
 
 </div>
 
 <br/>
 
 <div align="center">
-<sub>💬 &nbsp;Open to DevOps, SRE, cloud infrastructure, Kubernetes, CI/CD, and platform engineering opportunities.</sub>
+
+<sub>💬 &nbsp;Open to conversations on SRE practice, cloud architecture, or mentoring engineers.</sub>
 <br/>
-<sub><a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE">LinkedIn</a> · <a href="mailto:YOUR-EMAIL">Email</a></sub>
+<sub><a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE">LinkedIn</a> · <a href="https://blog.devilhai.info">Blog</a></sub>
+
 </div>
