@@ -41,7 +41,7 @@
   </g>
 
 
-  <text x="450.0" y="55" text-anchor="middle" font-family="Fira Code, monospace" font-size="30" font-weight="700" fill="#38BDF8" filter="url(#glow)" opacity="0.5">ROHIT
+  <text x="450.0" y="55" text-anchor="middle" font-family="Fira Code, monospace" font-size="30" font-weight="700" fill="#38BDF8" filter="url(#glow)" opacity="0.5">
     <animate attributeName="opacity" values="0.5;0.15;0.5" dur="6s" repeatCount="indefinite"/>
   </text>
   <text x="450.0" y="55" text-anchor="middle" font-family="Fira Code, monospace" font-size="30" font-weight="700" fill="#f8fafc">ROHIT</text>
