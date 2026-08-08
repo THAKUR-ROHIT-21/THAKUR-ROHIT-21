@@ -1,158 +1,279 @@
-<div align="center">
-  <img src="./assets/generated/galaxy-header.svg" width="100%" alt="Devendra — Infrastructure Engineer"/>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DEVENDRA-5470/DEVENDRA-5470/main/assets/generated/galaxy-header.svg" width="100%" />
+</p>
 
-<br/>
+<h1 align="center">Rohit Kumar</h1>
 
-<div align="center">
+<p align="center">
+  <code>DevOps Engineer | AWS • Azure • GCP • Kubernetes • CI/CD</code>
+</p>
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE"><img src="https://img.shields.io/badge/-LinkedIn-080c14?style=for-the-badge&logo=linkedin&logoColor=38BDF8"/></a>
-<a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=f87171"/></a>
+---
 
-<sub><img src="https://komarev.com/ghpvc/?username=DEVENDRA-5470&label=Profile%20Views&color=080c14&style=for-the-badge"/></sub>
+## 🧰 Stack
 
-</div>
+`AWS` `Azure` `GCP` `Terraform` `Kubernetes` `Docker` `Jenkins` `Git` `GitHub Actions` `Linux` `Bash` `Python` `Flask` `MySQL` `Node.js` `React` `HTML` `CSS` `Prometheus` `Grafana` `Helm`
 
-<br/>
+## 🎯 Focus
 
-<div align="center">
-  <img src="./assets/generated/stats-card.svg" width="100%" alt="Mission Telemetry"/>
-</div>
+DevOps Engineer designing and operating cloud infrastructure, Kubernetes environments, CI/CD pipelines, containerized applications, and observability stacks.
 
-<br/>
+Focused on building reliable and automated infrastructure using AWS, Azure, and GCP — from Infrastructure as Code with Terraform to containerized deployments with Docker and Kubernetes.
 
-## 🧰 &nbsp;Stack
+Currently working on hands-on Kubernetes operations, cloud infrastructure, Terraform automation, CI/CD with Jenkins and GitHub Actions, and monitoring with Prometheus + Grafana.
 
-<div align="center">
-  <img src="./assets/generated/tech-stack.svg" width="100%" alt="Tech Stack"/>
-</div>
+## 📁 Case studies
 
-<br/>
+Each project below represents infrastructure and DevOps work I have designed, deployed, automated, and troubleshot — with focus on practical production scenarios rather than only the technology list.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/DEVENDRA-5470/DEVENDRA-5470/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-</div>
+#### ☸️ Kubernetes Cluster
 
-<br/>
+Self-managed Kubernetes cluster with containerized workloads
 
-## 🎯 &nbsp;Focus
+A multi-node Kubernetes cluster built using kubeadm for hands-on experience with Kubernetes internals, networking, scheduling, storage, and cluster operations.
 
-<sub>Infrastructure engineer designing and operating the Kubernetes, CI/CD, and observability stacks behind production systems — from self-managed K3s clusters and service meshes to zero-trust, keyless CI/CD pipelines running in AWS.</sub>
+*Problem* — needed practical experience with Kubernetes components instead of depending only on managed Kubernetes services
 
-<br/>
+*Approach* — configured control-plane and worker nodes with kubeadm, containerd, Calico networking, local-path storage, and NGINX Ingress
 
-Currently building out service mesh + GitOps delivery on a self-managed K3s cluster, and running production CI/CD for a MERN e-commerce platform on self-hosted Jenkins.
+*Operations* — Pods, Deployments, Services, ConfigMaps, Secrets, Namespaces, RBAC, Scheduler, Controller Manager, API Server, etcd, Kubelet
 
-<br/>
+*Scheduling* — node affinity, taints and tolerations, resource requests/limits, and troubleshooting unscheduled Pods
 
-## 📁 &nbsp;Case studies
+*Storage* — PersistentVolumes, PersistentVolumeClaims, StorageClass, and local-path provisioning
 
-<sub>Each project below is infrastructure I designed, deployed, and operate — written as a case study because the decisions matter more than the tech list.</sub>
+`Kubernetes` `kubeadm` `containerd` `Calico` `Ingress` `RBAC`
 
-<br/>
+#### ⚙️ Terraform Cloud Infrastructure
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Infrastructure as Code across AWS and GCP
 
-#### 🧩 &nbsp;BookVault
-<sub>Self-managed K3s cluster, service mesh & GitOps</sub>
+Terraform-based infrastructure for provisioning and managing cloud resources consistently.
 
-A 3-node K3s cluster running Django/MySQL, built as hands-on infra for CKA-level operations — not a managed EKS shortcut.
+*Problem* — manual infrastructure creation is difficult to reproduce, maintain, and scale
 
-<sub>*Problem* — needed real exposure to scheduling, networking, and RBAC that managed Kubernetes abstracts away<br/>
-*Approach* — self-managed control plane, Linkerd mesh tracking golden-signal metrics, Jenkins + ArgoCD GitOps delivery, Traefik + cert-manager TLS<br/>
-*Hardening* — RBAC, NetworkPolicy, HPA/VPA, node affinity, init containers, Redis caching<br/>
-*Observability* — Prometheus + Grafana + AlertManager → Telegram</sub>
+*Approach* — created Terraform configurations and reusable modules for VPC networking, subnets, compute instances, storage, and cloud resources
 
-<sub>`K3s` `Linkerd` `ArgoCD` `Jenkins` `Prometheus`</sub>
+*AWS* — EC2, VPC, IAM, S3, RDS, CloudFront, Route 53, Load Balancer, Auto Scaling
 
-</td>
-<td width="50%" valign="top">
+*GCP* — Compute Engine, VPC, subnets, firewall rules, service accounts, and Cloud Storage
 
-#### ⚙️ &nbsp;Electronix
-<sub>Distributed Jenkins CI/CD, production MERN app</sub>
+*Practice* — providers, variables, outputs, modules, state management, `terraform plan`, `terraform apply`, and targeted deployments
 
-Full-stack e-commerce platform where the interesting work is the delivery pipeline.
+`Terraform` `AWS` `GCP` `VPC` `EC2` `Compute Engine`
 
-<sub>*Problem* — needed zero hardcoded credentials and a clean deploy path to S3/CloudFront<br/>
-*Approach* — dedicated SSH-based Jenkins agent, declarative pipeline (build → S3 → CloudFront invalidation), IAM role-based auth, CloudFront OAC over private S3<br/>
-*Migration* — moved backend from MongoDB to MySQL/Sequelize across 5 relational models with junction tables — a schema redesign, not a lift-and-shift</sub>
+#### 🔐 SimpleBank
 
-<sub>`Jenkins` `S3/CloudFront` `MySQL` `Razorpay`</sub>
+AWS-native banking application with secure infrastructure
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+A Flask + MySQL banking application deployed with AWS infrastructure and containerized application services.
 
-#### 🔐 &nbsp;SimpleBank
-<sub>Zero-SSH, keyless AWS-native CI/CD</sub>
+*Problem* — required secure communication between application and database without exposing the database publicly
 
-Design goal: eliminate standing access, not just automate deploys.
+*Approach* — EC2 application layer with private RDS MySQL, VPC networking, security groups, IAM, and AWS Systems Manager
 
-<sub>*Problem* — long-lived SSH keys and static credentials are a standing attack surface<br/>
-*Approach* — GitHub Actions via OIDC (no stored credentials), deploys through SSM Session Manager (no open SSH port), secrets from SSM Parameter Store, images through ECR</sub>
+*Security* — private RDS database, restricted security groups, IAM permissions, SSM Session Manager, and port forwarding instead of exposing database ports
 
-<sub>`Flask` `OIDC` `SSM` `ECR`</sub>
+*Automation* — Dockerized application deployment with CI/CD and infrastructure automation
 
-</td>
-<td width="50%" valign="top">
+`Flask` `MySQL` `EC2` `RDS` `VPC` `IAM` `SSM` `Docker`
 
-#### 🎯 &nbsp;IQuiz Hub
-<sub>Production platform on ECS Fargate</sub>
+#### 🐳 Dockerized Applications
 
-React/Node/MongoDB quiz platform with a proctored coding-exam module.
+Containerized applications using Docker and Docker Compose
 
-<sub>*Problem* — ECS deployments were failing silently under the circuit breaker<br/>
-*Approach* — diagnosed and resolved circuit-breaker rollback failures and an nginx port-mapping misconfig in production — failures that only surface under real deploy conditions<br/>
-*Features* — Monaco-based anti-cheat exam module, cascade-delete data integrity</sub>
+Multiple backend and frontend applications containerized to provide consistent development and deployment environments.
 
-<sub>`ECS Fargate` `React` `MongoDB`</sub>
+*Problem* — applications can behave differently between development, testing, and production environments
 
-</td>
-</tr>
-</table>
+*Approach* — created Dockerfiles and Docker Compose configurations for application services
 
-<details>
-<summary><sub>📂 &nbsp;More projects — serverless blog, security tooling, IaC deployment</sub></summary>
+*Practice* — images, containers, networks, volumes, environment variables, health checks, application dependencies, and multi-container deployments
 
-<br/>
+*Applications* — Flask, Node.js, React, MySQL and other backend services
 
-<sub>🌐 &nbsp;**DevOps World** — fully serverless blog (`blog.devilhai.info`): S3 + CloudFront (OAC) + Route 53 + ACM for the frontend, Cognito for auth, SES for email, Lambda behind API Gateway for subscriber onboarding, DynamoDB for post metadata.
+`Docker` `Docker Compose` `Python` `Flask` `Node.js` `React`
 
-🚨 &nbsp;**SSH Intrusion Monitor** — `systemd`-managed service tailing `/var/log/auth.log` in real time, geolocating suspicious source IPs and firing SMTP alerts, paired with a cron-driven bash-history audit digest.
+#### 🔄 Jenkins CI/CD
 
-☁️ &nbsp;**TaskMaster** — Flask/MongoDB Atlas app with infrastructure fully defined in Terraform, shipped as a versioned Docker image.
+Automated build, test and deployment pipelines
 
-📖 &nbsp;**Kubernetes Internals Guide** — a 20-section, self-authored technical reference written while building the K3s cluster above, now used as training material.</sub>
+Jenkins pipelines created for automated application delivery and infrastructure workflows.
 
-</details>
+*Problem* — manual deployment introduces human error and slows down application delivery
 
-<br/>
+*Approach* — implemented declarative Jenkins pipelines with dedicated agents and automated build/deployment stages
 
-## 📈 &nbsp;GitHub activity
+*Pipeline* — Git checkout → Build → Test → Docker Build → Deployment → Smoke Test
 
-<div align="center">
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=DEVENDRA-5470&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEVENDRA-5470&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+*Operations* — Jenkins agents, credentials, pipeline stages, environment variables, notifications, and troubleshooting failed builds
 
-<br/>
+`Jenkins` `CI/CD` `Git` `Docker` `Linux`
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=DEVENDRA-5470&theme=tokyonight&hide_border=true&background=0d1117" />
+#### 🚀 GitHub Actions
 
-<br/>
+Automated CI/CD and infrastructure validation
 
-<img src="https://github-profile-trophy.vercel.app/?username=DEVENDRA-5470&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
+GitHub Actions workflows for application testing, infrastructure validation, AWS authentication, and deployment automation.
 
-</div>
+*Problem* — needed automated validation before infrastructure and application changes reached deployment
 
-<br/>
+*Approach* — created workflows for testing, smoke testing, Docker builds, AWS authentication, and deployment
 
-<div align="center">
+*Security* — AWS authentication using IAM roles and OIDC instead of storing long-lived credentials
 
-<sub>💬 &nbsp;Open to conversations on SRE practice, cloud architecture, or mentoring engineers.</sub>
-<br/>
-<sub><a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE">LinkedIn</a> · <a href="https://blog.devilhai.info">Blog</a></sub>
+*Validation* — automated infrastructure and networking smoke tests
 
-</div>
+`GitHub Actions` `OIDC` `AWS IAM` `Docker` `Python`
+
+#### 📊 Prometheus & Grafana
+
+Kubernetes monitoring and observability
+
+Monitoring stack deployed on Kubernetes using Prometheus, Grafana, and Alertmanager.
+
+*Problem* — infrastructure and application issues need to be detected and investigated quickly
+
+*Approach* — deployed kube-prometheus-stack using Helm
+
+*Monitoring* — nodes, Pods, CPU, memory, workloads, Kubernetes components, and application metrics
+
+*Visualization* — Grafana dashboards for Kubernetes and infrastructure monitoring
+
+*Alerting* — Alertmanager configured for sending notifications when defined conditions are triggered
+
+`Prometheus` `Grafana` `Alertmanager` `Helm` `Kubernetes`
+
+#### ☁️ AWS Two-Tier Banking Architecture
+
+Secure application and database architecture
+
+Two-tier architecture with application services running on EC2 and database services running on private RDS.
+
+*Problem* — database should not be directly reachable from the public internet
+
+*Approach* — public application layer with private database layer using VPC networking and security groups
+
+*Database* — Amazon RDS MySQL deployed privately
+
+*Access* — AWS Systems Manager used for secure server access and database port forwarding
+
+*Security* — IAM, Security Groups, private networking, and restricted inbound/outbound rules
+
+`AWS` `VPC` `EC2` `RDS` `IAM` `SSM`
+
+#### 🌐 Microservices Application
+
+Containerized microservices architecture
+
+A microservices-based application consisting of multiple backend services.
+
+*Services* — Profile Service, Product Service, Order Service, and Payment Service
+
+*Approach* — each service runs independently and is containerized using Docker
+
+*Deployment* — Docker Compose used for local multi-service orchestration and service-to-service communication
+
+*Practice* — service discovery, environment configuration, networking, container health checks, and application troubleshooting
+
+`Microservices` `Docker` `Docker Compose` `Node.js` `Python`
+
+#### 🛠️ Infrastructure Smoke Testing
+
+Automated infrastructure and networking validation
+
+Python-based smoke testing used to verify infrastructure and application connectivity.
+
+*Problem* — infrastructure deployments can succeed while network connectivity or application endpoints remain broken
+
+*Approach* — automated checks for connectivity, application endpoints, ports, and service availability
+
+*Integration* — smoke tests executed through GitHub Actions as part of CI/CD workflows
+
+`Python` `GitHub Actions` `CI/CD` `Networking`
+
+#### 🔐 Cloud & Kubernetes Security
+
+IAM, RBAC and secure infrastructure access
+
+Hands-on implementation of access control across AWS and Kubernetes.
+
+*AWS* — IAM users, IAM roles, policies, security groups, and least-privilege permissions
+
+*Kubernetes* — RBAC, Roles, RoleBindings, ServiceAccounts, Namespaces, and authorization
+
+*Infrastructure* — private networking, restricted ports, firewall rules, and secure service communication
+
+`AWS IAM` `Kubernetes RBAC` `Security Groups` `Linux`
+
+#### 📚 Kubernetes Internals
+
+Hands-on Kubernetes learning and troubleshooting
+
+Built practical understanding of how Kubernetes components work together.
+
+*API Server* — receives and validates Kubernetes API requests
+
+*etcd* — stores the cluster state and configuration
+
+*Scheduler* — decides which worker node should run a Pod
+
+*Controller Manager* — continuously maintains the desired state
+
+*Kubelet* — manages Pods and containers on worker nodes
+
+*Container Runtime* — runs containers on worker nodes
+
+*Networking* — provides communication between Pods, Services, and external clients
+
+`API Server` `etcd` `Scheduler` `Controller Manager` `Kubelet`
+
+---
+
+## 📈 GitHub activity
+
+💬 Open to conversations on DevOps, cloud architecture, Kubernetes, CI/CD, Terraform, monitoring, automation, and production troubleshooting.
+
+### ☁️ Cloud
+
+AWS · Azure · GCP
+
+### ⚙️ Infrastructure
+
+Terraform · Linux · Bash · Networking · IAM
+
+### ☸️ Containers & Orchestration
+
+Docker · Docker Compose · Kubernetes · Helm · Calico · Ingress
+
+### 🔄 CI/CD
+
+Jenkins · GitHub Actions · Git · OIDC
+
+### 📊 Monitoring
+
+Prometheus · Grafana · Alertmanager
+
+### 💻 Development
+
+Python · Flask · Node.js · React · MySQL · HTML · CSS
+
+---
+
+## 👨‍💻 About Me
+
+I'm a DevOps Engineer with hands-on experience in cloud infrastructure, CI/CD automation, Kubernetes, Terraform, Docker, monitoring, and Linux.
+
+I enjoy troubleshooting infrastructure problems, automating repetitive tasks, designing secure cloud architectures, and learning how systems work internally.
+
+My current learning focus is Kubernetes, Terraform, cloud architecture, CI/CD, observability, and production-grade DevOps practices.
+
+---
+
+## 🔗 Connect
+
+**GitHub:** DEVENDRA-5470
+
+**LinkedIn:** Rohit Kumar
+
+**Focus:** DevOps · Cloud · Kubernetes · Terraform · CI/CD · SRE
