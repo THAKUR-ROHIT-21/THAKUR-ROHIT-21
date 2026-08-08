@@ -3,12 +3,6 @@
   <img src="https://raw.githubusercontent.com/THAKUR-ROHIT-21/THAKUR-ROHIT-21/main/assets/generated/galaxy-header.svg" width="100%" />
 </p>
 
-<h1 align="center">ROHIT THAKUR</h1>
-
-<p align="center">
-  <code>DevOps Engineer | AWS • Azure • GCP • Kubernetes • CI/CD</code>
-</p>
-
 ---
 
 ## 🧰 Stack
