@@ -135,7 +135,7 @@ flowchart TD
 
 <img src="https://img.shields.io/badge/AWS-Cloud%20Architecture-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
 
-Two-tier banking application with an EC2 application tier and a private RDS database.
+Three-tier banking application with an EC2 application tier and a private RDS database.
 
 **Engineering highlights**
 - VPC and security-group configuration
@@ -145,7 +145,7 @@ Two-tier banking application with an EC2 application tier and a private RDS data
 
 **Stack:** AWS · EC2 · RDS · IAM · SSM · ALB
 
-<a href="https://github.com/THAKUR-ROHIT-21/banking-app-two-tier-deployment">↗ VIEW PROJECT</a>
+<a href="https://github.com/THAKUR-ROHIT-21/banking-app-Three-tier-deployment">↗ VIEW PROJECT</a>
 
 </td>
 <td width="50%" valign="top">
@@ -190,11 +190,11 @@ Security-focused CI/CD workflow integrating code and secret scanning with contai
 </td>
 <td width="50%" valign="top">
 
-### ☁️ GCP Two-Tier Deployment
+### ☁️ GCP Three-Tier Deployment
 
 <img src="https://img.shields.io/badge/GCP-Cloud%20Deployment-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
 
-Cloud deployment project focused on a two-tier application architecture on Google Cloud.
+Cloud deployment project focused on a Three-tier application architecture on Google Cloud.
 
 **Engineering focus**
 - Cloud infrastructure
@@ -204,7 +204,7 @@ Cloud deployment project focused on a two-tier application architecture on Googl
 
 **Stack:** Google Cloud · Compute · Networking
 
-<a href="https://github.com/THAKUR-ROHIT-21/gcp_two_tier_deployment">↗ VIEW PROJECT</a>
+<a href="https://github.com/THAKUR-ROHIT-21/gcp_Three_tier_deployment">↗ VIEW PROJECT</a>
 
 </td>
 </tr>
