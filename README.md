@@ -192,9 +192,9 @@ Security-focused CI/CD workflow integrating code and secret scanning with contai
 </td>
 <td width="50%" valign="top">
 
-### ☁️ GCP Three-Tier Deployment
+### ☁️ Multi-Cloud Three-Tier Deployment
 
-<img src="https://img.shields.io/badge/GCP-Cloud%20Deployment-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
+<img src="https://img.shields.io/badge/Multi-Cloud-Cloud%20Deployment-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
 
 Cloud deployment project focused on a Three-tier application architecture on Google Cloud.
 
@@ -206,7 +206,7 @@ Cloud deployment project focused on a Three-tier application architecture on Goo
 
 **Stack:** Google Cloud · Compute · Networking
 
-<a href="https://github.com/THAKUR-ROHIT-21/gcp_Three_tier_deployment">↗ VIEW PROJECT</a>
+<a href="https://github.com/THAKUR-ROHIT-21/Multi-Cloud_Three_tier_deployment">↗ VIEW PROJECT</a>
 
 </td>
 </tr>
