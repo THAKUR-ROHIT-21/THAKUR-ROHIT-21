@@ -48,7 +48,7 @@ Monitor everything that matters.
 Continuously improve system reliability.
 ```
 
-I'm a **DevOps Engineer with 4.5+ years of experience** working with cloud infrastructure, containerized applications, CI/CD automation, and modern DevOps practices.
+I'm a **DevOps Engineer with 5.2+ years of experience** working with cloud infrastructure, containerized applications, CI/CD automation, and modern DevOps practices.
 
 - ☁️ **Cloud:** AWS, Microsoft Azure & Google Cloud
 - ☸️ **Containers:** Docker, Kubernetes, Helm
