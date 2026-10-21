@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/THAKUR-ROHIT-21/THAKUR-ROHIT-21/main/assets/generated/galaxy-header.svg" width="100%" />
+</p>
 <!-- ═══════════════ HERO SECTION ═══════════════ -->
 
 <div align="center">
