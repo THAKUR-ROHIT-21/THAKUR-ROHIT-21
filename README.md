@@ -16,7 +16,7 @@ DevOps Engineer | Cloud & Infrastructure | Kubernetes | AWS | Terraform
 
 ## 👨‍💻 About Me
 
-* 🚀 DevOps Engineer with **4.5+ years of professional experience**
+* 🚀 DevOps Engineer with **5.2+ years of professional experience**
 * ☁️ Working with **AWS, GCP and Azure**
 * ☸️ Designing and managing **Kubernetes clusters**
 * 🔄 Building and maintaining **CI/CD pipelines**
