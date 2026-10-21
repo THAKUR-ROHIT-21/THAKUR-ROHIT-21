@@ -3,7 +3,7 @@
 </p>
 <!-- ═══════════════ HERO SECTION ═══════════════ -->
 
-<div align="center">
+<!-- <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:090A1A,35:172554,70:312E81,100:06B6D4&text=ROHIT%20THAKUR&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=DEVOPS%20ENGINEER%20%7C%20CLOUD%20%7C%20AUTOMATION&descSize=16&descAlignY=58&animation=fadeIn" />
 
@@ -26,7 +26,7 @@
   <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-</div>
+</div> -->
 
 ---
 
