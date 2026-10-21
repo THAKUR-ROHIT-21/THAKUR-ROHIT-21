@@ -11,7 +11,7 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/EXPERIENCE-4.5%2B%20YEARS-0EA5E9?style=for-the-badge&labelColor=0B1120" />
+<img src="https://img.shields.io/badge/EXPERIENCE-5.2%2B%20YEARS-0EA5E9?style=for-the-badge&labelColor=0B1120" />
 <img src="https://img.shields.io/badge/CLOUD-AWS%20%7C%20AZURE%20%7C%20GCP-7C3AED?style=for-the-badge&labelColor=0B1120" />
 <img src="https://img.shields.io/badge/FOCUS-DEVOPS%20%7C%20DEVSECOPS-06B6D4?style=for-the-badge&labelColor=0B1120" />
 
