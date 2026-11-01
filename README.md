@@ -1,4 +1,4 @@
-# 🔴 Rohit M Thakur | DevOps Engineer
+# 🔴 Rohit Thakur | DevOps Engineer | DevSecOps & Cloud Engineer
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=EF4444&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Rohit+M+Thakur+%F0%9F%91%8B;DevOps+Engineer+%7C+5%2B+Years+Experience;AWS+%7C+Azure+%7C+GCP+Cloud+Engineer;Kubernetes+%7C+Terraform+%7C+Docker;DevSecOps+%7C+CI%2FCD+%7C+GitOps;Automating+Infrastructure.+Securing+Deployments." alt="Typing SVG" />
