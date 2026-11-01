@@ -1,308 +1,517 @@
-# 🔴 ROHIT THAKUR
-### DevOps Engineer | DevSecOps Engineer | Cloud Engineer | FinOps
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&duration=2500&pause=900&color=EF4444&center=true&vCenter=true&width=850&lines=Welcome+to+My+DevOps+World+%F0%9F%91%8B;5%2B+Years+of+Cloud+%26+DevOps+Experience;AWS+%7C+Azure+%7C+GCP+Cloud+Engineering;Kubernetes+%7C+Terraform+%7C+Docker;DevSecOps+%7C+GitOps+%7C+FinOps;Automate.+Secure.+Optimize.+Scale." alt="Typing Animation" />
+  <img src="https://raw.githubusercontent.com/THAKUR-ROHIT-21/THAKUR-ROHIT-21/main/assets/generated/galaxy-header.svg" width="100%" />
 </p>
 
-<p align="center">
-  <b>☁️ Multi-Cloud | ⚙️ Infrastructure Automation | 🔐 DevSecOps | 💰 Cloud FinOps</b>
-</p>
+<h1 align="center">Hi 👋, I'm Rohit Thakur</h1>
+
+<h3 align="center">
+DevOps Engineer | Cloud & Infrastructure | Kubernetes | AWS | Terraform
+</h3>
 
 <p align="center">
-  <a href="https://github.com/THAKUR-ROHIT-21">
-    <img src="https://img.shields.io/badge/GitHub-Follow_Me-111111?style=for-the-badge&logo=github&logoColor=EF4444"/>
-  </a>
-  <a href="https://linkedin.com/in/rohit-kr-thakur07">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-DC2626?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:thakurrohitkr591@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-111111?style=for-the-badge&logo=gmail&logoColor=EF4444"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=THAKUR-ROHIT-21&label=PROFILE+VISITORS&color=dc2626&style=for-the-badge" alt="Profile Visitors"/>
+  <b>Building reliable infrastructure, automated CI/CD pipelines and production-ready cloud environments.</b>
 </p>
 
 ---
 
-<h2 align="center">🔴 WHO AM I?</h2>
+## 👨‍💻 About Me
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=F87171&center=true&vCenter=true&width=700&lines=Building+Reliable+Cloud+Infrastructure;Automating+DevOps+%26+DevSecOps+Workflows;Making+Cloud+Infrastructure+Cost+Efficient" alt="About Me"/>
-</p>
-
-Hey there! 👋 I'm **Rohit Thakur**, a DevOps, DevSecOps and Cloud Engineer with **5+ years of experience** in designing, automating, securing and optimizing cloud infrastructure.
-
-I work across **AWS, Microsoft Azure and Google Cloud Platform**, focusing on Infrastructure as Code, Kubernetes orchestration, CI/CD automation, GitOps, security integration and cloud financial management.
-
-I believe modern DevOps is not just about deploying applications — it's about building secure, scalable, observable and cost-efficient platforms.
-
-### 🎯 My Engineering Focus
-
-- ☁️ **Multi-Cloud Engineering:** AWS, Azure and GCP infrastructure.
-- ⚙️ **Infrastructure as Code:** Terraform modules, Ansible and CloudFormation.
-- 🐳 **Containerization:** Docker, Kubernetes, Helm and EKS.
-- 🔄 **CI/CD & GitOps:** Jenkins, GitHub Actions and Argo CD.
-- 🔐 **DevSecOps:** SonarQube, Trivy, Gitleaks and OWASP ZAP.
-- 📊 **Observability:** Prometheus, Grafana, Alertmanager and ELK.
-- 💰 **FinOps:** Cloud cost optimization, Kubecost and Infracost.
-- 🚀 **Platform Engineering:** Development, QA and Production collaboration.
+* 🚀 DevOps Engineer with **5.2+ years of professional experience**
+* ☁️ Working with **AWS, GCP and Azure**
+* ☸️ Designing and managing **Kubernetes clusters**
+* 🔄 Building and maintaining **CI/CD pipelines**
+* 🏗️ Automating infrastructure using **Terraform**
+* 🐳 Containerizing applications using **Docker**
+* 🔧 Working with **Jenkins and GitHub Actions**
+* 📊 Implementing monitoring with **Prometheus & Grafana**
+* 🐧 Strong experience with **Linux and Bash**
+* 💻 Working knowledge of **Python, JavaScript, Node.js, React and Flask**
+* 🎓 **MCA — 2026**
 
 ---
 
-<h2 align="center">🛠️ TECHNOLOGY ARSENAL</h2>
+# 🧰 Tech Stack
 
-### ☁️ Cloud Platforms
+### ☁️ Cloud
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp&theme=dark"/>
+<p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Amazon_EKS-111111?style=flat-square&logo=amazoneks&logoColor=FF9900"/>
-  <img src="https://img.shields.io/badge/Azure_AKS-111111?style=flat-square&logo=kubernetes&logoColor=0078D4"/>
-  <img src="https://img.shields.io/badge/Google_GKE-111111?style=flat-square&logo=googlecloud&logoColor=4285F4"/>
-  <img src="https://img.shields.io/badge/Amazon_ECR-111111?style=flat-square&logo=amazonaws&logoColor=FF9900"/>
+### 🏗️ Infrastructure & DevOps
+
+<p>
+  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
 </p>
 
-### ⚙️ Infrastructure as Code & Configuration Management
+### 🔄 CI/CD & Version Control
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=terraform,ansible&theme=dark"/>
-  <img src="https://img.shields.io/badge/AWS_CloudFormation-111111?style=flat-square&logo=amazonaws&logoColor=FF9900"/>
-</p>
-
-### 🐳 Containers & Orchestration
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,helm&theme=dark"/>
-</p>
-
-### 🔄 CI/CD & GitOps
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=jenkins,github,githubactions,git,gitlab&theme=dark"/>
-  <img src="https://img.shields.io/badge/Argo_CD-111111?style=flat-square&logo=argo&logoColor=EF4444"/>
-  <img src="https://img.shields.io/badge/Flux_CD-111111?style=flat-square&logo=flux&logoColor=white"/>
-</p>
-
-### 🔐 DevSecOps & Application Security
-
-<p align="center">
-  <img src="https://img.shields.io/badge/SonarQube-111111?style=for-the-badge&logo=sonarqube&logoColor=EF4444"/>
-  <img src="https://img.shields.io/badge/Trivy-111111?style=for-the-badge&logo=aqua&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Gitleaks-111111?style=for-the-badge&logo=git&logoColor=EF4444"/>
-  <img src="https://img.shields.io/badge/OWASP_ZAP-111111?style=for-the-badge&logo=owasp&logoColor=white"/>
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
 </p>
 
 ### 📊 Monitoring & Observability
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=prometheus,grafana,elasticsearch&theme=dark"/>
-  <img src="https://img.shields.io/badge/Alertmanager-111111?style=flat-square&logo=prometheus&logoColor=EF4444"/>
-  <img src="https://img.shields.io/badge/CloudWatch-111111?style=flat-square&logo=amazoncloudwatch&logoColor=FF9900"/>
-  <img src="https://img.shields.io/badge/ELK_Stack-111111?style=flat-square&logo=elastic&logoColor=white"/>
+<p>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
 </p>
 
-### 💰 FinOps & Cloud Cost Optimization
+### 🐧 Operating Systems & Scripting
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS_Cost_Explorer-111111?style=for-the-badge&logo=amazonaws&logoColor=FF9900"/>
-  <img src="https://img.shields.io/badge/Azure_Cost_Management-111111?style=for-the-badge&logo=microsoftazure&logoColor=0078D4"/>
-  <img src="https://img.shields.io/badge/GCP_Billing-111111?style=for-the-badge&logo=googlecloud&logoColor=4285F4"/>
-  <img src="https://img.shields.io/badge/Kubecost-111111?style=for-the-badge&logo=kubernetes&logoColor=326CE5"/>
-  <img src="https://img.shields.io/badge/Infracost-111111?style=for-the-badge&logo=terraform&logoColor=844FBA"/>
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 </p>
 
-### 📨 Messaging, Streaming & Databases
+### 💻 Development
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=kafka,postgres,mysql,mongodb&theme=dark"/>
-</p>
-
-**Apache Kafka:** Producers | Consumers | Brokers | Topics | Partitions | Consumer Groups
-
-### 💻 Scripting & Operating Systems
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,ubuntu,bash,python,nginx&theme=dark"/>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 </p>
 
 ---
 
-<h2 align="center">🚀 FEATURED ENGINEERING PROJECTS</h2>
+# 🎯 What I Have Learned
 
-### 01. 🔥 Dev, QA & Production Collaboration Platform
+### ☁️ Cloud & Infrastructure
 
-<kbd> AWS </kbd> <kbd> Docker </kbd> <kbd> Kubernetes </kbd> <kbd> Terraform </kbd> <kbd> Jenkins </kbd>
-
-**Building a unified deployment platform for application development, testing and production environments.**
-
-- Designed a multi-environment application deployment architecture separating Development, QA and Production workloads.
-- Containerized frontend and backend microservices using Docker and Docker Compose.
-- Automated application build, testing and deployment workflows through CI/CD pipelines.
-- Published versioned frontend and backend container images to Amazon Elastic Container Registry (ECR).
-- Designed AWS VPC architecture with public/private subnets, routing and security groups.
-- Integrated PostgreSQL database connectivity and Nginx reverse proxy configuration.
-- Worked on Kubernetes deployment architecture for container orchestration and scalability.
-- Focused on environment isolation, deployment consistency, security and operational reliability.
-
-**Engineering Highlights:** Multi-environment architecture | Containerized workloads | ECR image management | CI/CD automation | Cloud networking.
-
----
-
-### 02. ☁️ Enterprise E-Commerce Microservices Platform – AWS
-
-<kbd> AWS EKS </kbd> <kbd> Terraform </kbd> <kbd> Argo CD </kbd> <kbd> Kafka </kbd> <kbd> DevSecOps </kbd>
-
-**Designing a scalable, secure and highly available cloud-native application platform.**
-
-- Provisioned EKS, RDS, ElastiCache, S3, CloudFront, ALB and VPC using reusable Terraform modules.
-- Implemented GitOps delivery using Argo CD and Helm charts.
-- Built Jenkins pipelines for application builds, testing, security scanning and Docker image publishing to ECR.
-- Integrated SonarQube, Trivy, Gitleaks and OWASP ZAP into security workflows.
-- Implemented Prometheus, Grafana and CloudWatch monitoring with proactive alerting.
-- Improved availability and application performance using load balancing, caching and auto scaling.
-- Applied resource right-sizing and storage optimization for AWS cost efficiency.
+* AWS EC2
+* AWS VPC
+* IAM
+* S3
+* RDS
+* CloudFront
+* Route 53
+* Auto Scaling
+* Application Load Balancer
+* CloudWatch
+* Lambda
+* ECR
+* SNS
+* AWS Systems Manager / SSM
+* GCP Compute Engine
+* GCP VPC
+* GCP Storage
+* GCP Firewall
+* GCP Service Accounts
+* Azure Virtual Machines
+* Azure VNet
+* Azure IAM / RBAC
+* Azure Contributor Role
 
 ---
 
-### 03. 🏥 Enterprise Healthcare Management Platform – Azure Serverless
+### 🏗️ Terraform / Infrastructure as Code
 
-<kbd> Azure Functions </kbd> <kbd> API Management </kbd> <kbd> Terraform </kbd> <kbd> Event Grid </kbd>
-
-**An event-driven and cost-efficient serverless cloud architecture.**
-
-- Designed event-driven architecture using Azure Functions, Service Bus and Event Grid.
-- Automated infrastructure provisioning using Terraform.
-- Configured Azure API Management for secure API exposure and routing.
-- Implemented Key Vault, Microsoft Entra ID and Azure RBAC.
-- Automated deployment workflows through Azure DevOps and GitHub Actions.
-- Integrated Application Insights and Azure Monitor.
-- Optimized infrastructure expenditure using consumption-based serverless services.
-
----
-
-### 04. 🌐 Customer Management Platform – GCP
-
-<kbd> GCP </kbd> <kbd> GKE </kbd> <kbd> Cloud Run </kbd> <kbd> Terraform </kbd> <kbd> Ansible </kbd>
-
-**Automating cloud infrastructure and containerized application deployments on Google Cloud.**
-
-- Provisioned VPC, GKE, Compute Engine and Cloud SQL using Terraform.
-- Configured subnets, routing, firewall rules and Cloud NAT.
-- Implemented IAM roles, service accounts and Workload Identity.
-- Automated builds and deployments using Jenkins and GitHub Actions.
-- Published container images to Artifact Registry and deployed workloads to GKE and Cloud Run.
-- Integrated Cloud Monitoring and Cloud Logging.
-- Validated Cloud SQL backup and point-in-time recovery.
+* Terraform fundamentals
+* Terraform providers
+* Variables
+* Outputs
+* Locals
+* Modules
+* Module-based architecture
+* Remote infrastructure provisioning
+* AWS infrastructure automation
+* GCP infrastructure automation
+* VPC / Network provisioning
+* Compute provisioning
+* Storage provisioning
+* `terraform init`
+* `terraform plan`
+* `terraform apply`
+* `terraform destroy`
+* Targeted resource deployment
 
 ---
 
-### 05. 💰 Multi-Cloud FinOps & Infrastructure Cost Optimization Platform
+### 🐳 Docker & Containers
 
-<kbd> AWS </kbd> <kbd> Azure </kbd> <kbd> GCP </kbd> <kbd> Kubecost </kbd> <kbd> Infracost </kbd>
-
-**Building cost visibility, resource optimization and financial accountability across multiple cloud environments.**
-
-- Implemented mandatory resource tagging for environment, team, project and ownership.
-- Integrated AWS CUR, Athena and QuickSight, Azure Cost Management and GCP Billing exports to BigQuery.
-- Designed unified multi-cloud cost visibility dashboards.
-- Configured AWS Budgets, Cost Anomaly Detection and SNS alerts.
-- Optimized EC2, RDS and EKS resources through right-sizing and utilization reviews.
-- Applied Savings Plans, Reserved Instances and Spot Instances where appropriate.
-- Automated non-production resource shutdown and unused infrastructure cleanup using Python and AWS Lambda.
-- Deployed Kubecost with Prometheus and Grafana for Kubernetes namespace-level cost visibility.
-- Integrated Infracost into Terraform pull requests to estimate infrastructure costs before deployment.
-- Implemented S3 lifecycle policies and storage tiering.
-
-**Engineering Focus:** Cost visibility | Resource efficiency | Automated governance | Cloud financial accountability.
+* Docker fundamentals
+* Dockerfile
+* Docker images
+* Docker containers
+* Docker networking
+* Docker volumes
+* Docker Compose
+* Multi-container applications
+* Container health checks
+* Environment variables
+* Image management
+* Docker Hub
+* Containerized application deployment
+* Podman basics
 
 ---
 
-<h2 align="center">🔄 MY DEVOPS & DEVSECOPS PIPELINE</h2>
+### ☸️ Kubernetes
+
+* Kubernetes architecture
+* Control Plane
+* Worker Nodes
+* API Server
+* Scheduler
+* Controller Manager
+* etcd
+* kubelet
+* Container Runtime
+* Pods
+* ReplicaSets
+* Deployments
+* Services
+* ConfigMaps
+* Secrets
+* Namespaces
+* Labels & Selectors
+* Node Affinity
+* Pod Affinity
+* Taints & Tolerations
+* Persistent Volumes
+* Persistent Volume Claims
+* StorageClasses
+* Local Path Provisioner
+* Ingress
+* Ingress-NGINX
+* NodePort
+* Helm
+* Kubernetes troubleshooting
+* `kubectl`
+* Cluster backup concepts
+* etcd backup
+* Kubernetes scheduling
+* Production cluster concepts
+
+---
+
+### 🔄 CI/CD
+
+* Jenkins
+* Jenkins Pipeline
+* Jenkinsfile
+* Declarative Pipelines
+* GitHub Actions
+* Workflow automation
+* Build automation
+* Deployment automation
+* Smoke testing
+* Infrastructure testing
+* Environment-based deployment
+* AWS authentication from GitHub Actions
+* OIDC / keyless CI/CD concepts
+* Docker image build & push
+* CI/CD notifications
+
+---
+
+### 📊 Monitoring & Observability
+
+* Prometheus
+* Grafana
+* Alertmanager
+* Kubernetes monitoring
+* Node monitoring
+* Application monitoring
+* Metrics collection
+* Dashboards
+* Alerting
+* Discord alert notifications
+* Monitoring production workloads
+* Troubleshooting using metrics
+
+---
+
+### 🌐 Networking
+
+* VPC / VNet
+* Subnets
+* Public & Private Subnets
+* Route Tables
+* Internet Gateway
+* NAT concepts
+* Security Groups
+* Network ACLs
+* Load Balancers
+* DNS
+* Ports
+* TCP/IP basics
+* Kubernetes networking
+* Ingress networking
+* NodePort
+* Firewall rules
+* Network troubleshooting
+
+---
+
+### 🐧 Linux
+
+* Linux administration
+* File system
+* Users & Groups
+* Permissions
+* SSH
+* Processes
+* Services
+* systemd
+* Package management
+* Networking commands
+* Logs
+* Disk management
+* CPU & Memory troubleshooting
+* Bash scripting
+* Server troubleshooting
+
+---
+
+# 🚀 Projects & Hands-on Work
+
+## 🏦 AWS Two-Tier Banking Application
+
+**Architecture:**
+
+```text
+                Internet
+                   │
+                   ▼
+              Load Balancer
+                   │
+                   ▼
+              EC2 / App Tier
+                   │
+                   ▼
+             Private RDS
+                   │
+                   ▼
+                 MySQL
+```
+
+### Technologies
+
+* AWS EC2
+* AWS VPC
+* Private RDS
+* MySQL
+* IAM
+* SSM Session Manager
+* Port Forwarding
+* Security Groups
+* Application deployment
+* Infrastructure troubleshooting
+
+---
+
+## 🛒 MERN / E-Commerce Platform
+
+Worked with production-style application deployment involving:
+
+* React
+* Node.js
+* Express
+* MongoDB / MySQL concepts
+* Docker
+* Docker Compose
+* Jenkins
+* GitHub
+* CI/CD
+* Environment configuration
+* Application health checks
+* Deployment automation
+
+---
+
+## ☸️ Self-Managed Kubernetes Cluster
+
+Hands-on with a Kubernetes cluster using:
+
+* kubeadm
+* containerd
+* Calico
+* Ingress-NGINX
+* Local Path Provisioner
+* Persistent Volumes
+* Helm
+* Prometheus
+* Grafana
+* Alertmanager
+
+```text
+                    Kubernetes Cluster
+                           │
+             ┌─────────────┴─────────────┐
+             │                           │
+        Control Plane                Workers
+             │                           │
+      ┌──────┼──────┐              ┌─────┴─────┐
+      │      │      │              │           │
+   API     Scheduler  etcd      Worker-01   Worker-02
+  Server
+                                  │           │
+                                Kubelet     Kubelet
+                                  │           │
+                                 Pods        Pods
+```
+
+---
+
+# 🧪 Infrastructure & Smoke Testing
+
+I have also worked on infrastructure-focused smoke testing covering:
+
+* VM connectivity
+* Network connectivity
+* Application health
+* Service availability
+* HTTP endpoint checks
+* Port checks
+* Infrastructure validation
+* CI/CD-integrated smoke tests
+
+---
+
+# 🔐 Security & Reliability
+
+* IAM / RBAC
+* Least privilege concepts
+* Private networking
+* Security Groups
+* NACL
+* Kubernetes RBAC
+* Secrets management concepts
+* Zero-trust concepts
+* Keyless CI/CD
+* High availability concepts
+* Backup & recovery
+* etcd backup
+* Production troubleshooting
+
+---
+
+# 📚 Currently Focusing On
+
+```text
+Kubernetes
+   │
+   ├── Advanced Scheduling
+   ├── Networking
+   ├── Storage
+   ├── Security
+   ├── Troubleshooting
+   └── Production Operations
+
+DevOps
+   │
+   ├── CI/CD
+   ├── GitOps
+   ├── Infrastructure as Code
+   ├── Observability
+   └── Platform Engineering
+
+Cloud
+   │
+   ├── AWS
+   ├── GCP
+   └── Azure
+```
+
+---
+
+# 🎯 Career Focus
+
+> Building and operating scalable, secure and reliable infrastructure while automating software delivery through modern DevOps practices.
+
+My primary areas of focus are:
+
+**Cloud → Infrastructure → Kubernetes → CI/CD → Automation → Monitoring → Reliability**
+
+---
+
+# 📈 GitHub Activity
 
 <p align="center">
-  <img src="https://img.shields.io/badge/01_CODE-111111?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/02_BUILD-111111?style=for-the-badge&logo=jenkins&logoColor=white"/>
-  <img src="https://img.shields.io/badge/03_TEST-111111?style=for-the-badge&logo=sonarqube&logoColor=white"/>
-  <img src="https://img.shields.io/badge/04_SECURE-111111?style=for-the-badge&logo=owasp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/05_DEPLOY-111111?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/06_MONITOR-111111?style=for-the-badge&logo=grafana&logoColor=white"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=DEVENDRA-5470&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
-**Development → Source Control → CI/CD → Code Quality → Security Scanning → Container Registry → GitOps Deployment → Monitoring & Feedback**
-
-My approach is to integrate security, automation and cost awareness into every stage of the software delivery lifecycle.
-
----
-
-<h2 align="center">📊 GITHUB ANALYTICS</h2>
-
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=THAKUR-ROHIT-21&show_icons=true&theme=dark&bg_color=0a0a0a&title_color=ef4444&icon_color=ef4444&text_color=ffffff&border_color=ef4444"/>
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=THAKUR-ROHIT-21&layout=compact&theme=dark&bg_color=0a0a0a&title_color=ef4444&text_color=ffffff&border_color=ef4444"/>
-</p>
-
-<p align="center">
-  <img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=THAKUR-ROHIT-21&theme=dark&background=0a0a0a&ring=ef4444&fire=ef4444&currStreakLabel=ef4444&border=ef4444"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DEVENDRA-5470&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-<h2 align="center">🐍 MY CONTRIBUTION JOURNEY</h2>
+# 🛠️ DevOps Architecture
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/THAKUR-ROHIT-21/THAKUR-ROHIT-21/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
-</p>
+```text
+                        Developer
+                            │
+                            ▼
+                         GitHub
+                            │
+                            ▼
+                    GitHub Actions
+                            │
+                            ▼
+                         Jenkins
+                            │
+                ┌───────────┴───────────┐
+                │                       │
+             Terraform                Docker
+                │                       │
+                ▼                       ▼
+             Cloud                 Container Image
+          AWS / GCP / Azure              │
+                │                        │
+                └───────────┬────────────┘
+                            ▼
+                       Kubernetes
+                            │
+              ┌─────────────┼─────────────┐
+              │             │             │
+           Ingress       Services        Pods
+              │             │             │
+              └─────────────┼─────────────┘
+                            ▼
+                  Prometheus + Grafana
+                            │
+                            ▼
+                       Alertmanager
+```
 
 ---
 
-<h2 align="center">🌱 CURRENTLY EXPLORING</h2>
+## 💡 DevOps Philosophy
 
-- Advanced Kubernetes architecture and production troubleshooting.
-- Terraform modules, remote state and infrastructure automation.
-- Multi-cloud architecture and cloud governance.
-- Advanced GitOps with Argo CD and Flux.
-- DevSecOps automation and container security.
-- Kafka messaging and streaming architecture.
-- FinOps, Kubecost and Infracost.
-- Platform engineering and production reliability.
+```text
+Automate Everything
+       ↓
+Build Reliable Infrastructure
+       ↓
+Deploy Faster
+       ↓
+Monitor Everything
+       ↓
+Troubleshoot Quickly
+       ↓
+Improve Continuously
+```
 
 ---
 
-<h2 align="center">🤝 LET'S CONNECT & BUILD SOMETHING GREAT</h2>
-
 <p align="center">
-  <i>Interested in Cloud Infrastructure, DevOps Automation, Kubernetes, Terraform, DevSecOps, Platform Engineering or FinOps? Let's connect and collaborate!</i>
+  <b>☁️ Cloud • ☸️ Kubernetes • 🐳 Docker • 🏗️ Terraform • 🔄 CI/CD • 📊 Observability</b>
 </p>
 
 <p align="center">
-  📍 East Delhi, India
-  <br/>
-  📧 <a href="mailto:thakurrohitkr591@gmail.com">thakurrohitkr591@gmail.com</a>
-  <br/>
-  📱 +91 93109 23204
-</p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/rohit-kr-thakur07">
-    <img src="https://img.shields.io/badge/LinkedIn-Professional_Network-DC2626?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/THAKUR-ROHIT-21">
-    <img src="https://img.shields.io/badge/GitHub-Explore_My_Work-111111?style=for-the-badge&logo=github&logoColor=EF4444"/>
-  </a>
-  <a href="mailto:thakurrohitkr591@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Let's_Talk-DC2626?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
-
-<p align="center">
-  <b>⚡ AUTOMATE EVERYTHING. SECURE EVERY LAYER. OPTIMIZE EVERY RESOURCE.</b>
-</p>
-
-<p align="center">
-  <i>Thanks for visiting my profile! Let's engineer the future together. 🚀</i>
+  <i>Learning. Building. Automating. Improving.</i>
 </p>
